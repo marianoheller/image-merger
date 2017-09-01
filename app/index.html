@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Merger</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<div class="container">
+
+		<!-- columns should be the immediate child of a .row -->
+		<div class="row">
+			<div class="twelve columns">
+				<h1 id="title">Image merger</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="ten columns">
+				<p>Select folder containing the desired images.</p>
+			</div>
+			<div class="two columns">
+				<a id="openFolderButton" class="button" onclick="openFolderClicked();">Select Folder</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns">
+				<table class="u-full-width">
+					<thead>
+						<tr>
+							<th>Filename</th>
+							<th>Width</th>
+							<th>Heigth</th>
+							<th>Size</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		
+
+	</div>
+
+
+
+	<script src="./js/index.js"></script>
+</body>
+</html>
